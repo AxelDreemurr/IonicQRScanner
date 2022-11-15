@@ -1,12 +1,8 @@
-# Ionic-Angular-Cordova-Barcode-Scanner
-
-An Ionic angular demo using the [cordova-plugin-dynamsoft-barcode-reader](https://github.com/xulihang/cordova-plugin-dynamsoft-barcode-reader/) plugin and the [ionic native wrapper](https://github.com/xulihang/awesome-cordova-plugins/tree/master/src/%40awesome-cordova-plugins/plugins/dynamsoft-barcode-scanner).
-
-How to run:
+Para ejecutar:
 
 1. npm install
 
-2. You can set up your own license in the `src\app\scanner\scanner.page.html` file.
+2. Puedes configurar tu propia licencia en el archivo `src\app\scanner\scanner.page.html`.
 
    ```html
    <app-barcode-scanner
@@ -19,23 +15,21 @@ How to run:
    </app-barcode-scanner>
    ```
    
-   [Apply for a trial license of Dynamsoft Barcode Reader](https://www.dynamsoft.com/customer/license/trialLicense/?product=dbr).
-   
-   It is also possible to set up a license for Dynamsoft Camera Enhancer (DCE). But normally, you don't need to specify a license for it. 
+   [Obtén una licencia de prueba de Dynamsoft aquí](https://www.dynamsoft.com/customer/license/trialLicense/?product=dbr).
 
-3. Add platforms: 
+3. Añadir plataformas a Cordova: 
 
    ```
    ionic cordova platforms add android
    ionic cordova platforms add ios
    ```
    
-4. Prepare the project for platforms:
+4. Prepara el proyecto para las plataformas elegidas:
 
    ```
    ionic cordova prepare android
    ionic cordova prepare ios
    ```
    
-5. Use Android Studio and Xcode to open and run the project.
+5. ¡Listo! Para poder probar el escáner, instala la app en un dispositivo Android utilizando el instalador .apk generado por Android Studio.
 
